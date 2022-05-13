@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "json_de2zh"
-version = "0.1.0"
+version = "0.1.1-alpha.0"
 description = "pack_name descr "
 authors = ["ffreemt"]
 license = "MIT"
