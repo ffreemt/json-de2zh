@@ -21,9 +21,9 @@ numpy = "^1.22.3"
 sklearn = "^0.0"
 fastlid = "^0.1.7"
 simplemma = "0.3.0"
-charsplit = {git = "https://github.com/dtuggener/CharSplit.git"}
 fast-scores = "^0.1.2"
 cmat2aset = "^0.1.0-alpha.7"
+split-words = "^0.1.2"
 
 [tool.poe.executor]
 type = "poetry"

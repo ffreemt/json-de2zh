@@ -34,7 +34,8 @@ import sys
 from typing import List, Union
 from unicodedata import category
 
-from charsplit import Splitter
+# from charsplit import Splitter
+from split_words import Splitter
 
 split_comp = Splitter().split_compound
 
