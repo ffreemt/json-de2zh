@@ -1,0 +1,9 @@
+{
+   "include": ["tests", "json_de2zh"],
+  "venvPath": ".venv",
+  "reportTypeshedErrors": false,
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.7",
+  "ignore": []
+}
