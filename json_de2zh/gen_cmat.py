@@ -19,7 +19,7 @@ from json_de2zh.process_de import process_de
 # from fast_scores.process_de import process_de
 
 # fix on de/zh, warn if confidence too low
-fastlid.set_languages = ["de", "zh"]
+# fastlid.set_languages = ["de", "zh"]  # need to move inside gen_cmat
 
 
 def gen_cmat(
@@ -29,6 +29,7 @@ def gen_cmat(
 ) -> np.ndarray:
     """Gen corr matrix for de/zh texts."""
     # logger.debug("enter gen_cmat")
+    fastlid.set_languages = ["de", "zh"]  # bug fix
     if isinstance(text1, str):
         text1 = [text1]
     if isinstance(text2, str):
